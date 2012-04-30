@@ -23,7 +23,6 @@ def convert_base(number, base)
       number = number - running_total
       # puts "If loop number after subtraction: #{number}"
       if exponents[n-1].nil? then exponents[n-1] = 1 else exponents[n-1] += 1 end
-      if number == 0 then break end
       n = 0
     else
       n += 1
